@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="alerta.ico" type="image/x-icon">
+    <title>Una eleccion particular</title>
+    <meta name="author" content="Terra">
+    <link rel="stylesheet" href="landing1.css">
+    <script>
+        function toggleParrafos() {
+        const contenedor = document.getElementById("contenedor-parrafos");
+        if (contenedor.style.display === "none") {
+            contenedor.style.display = "block";
+        } else {
+            contenedor.style.display = "none";
+        }
+  }
+</script>
+</head>
+<body>
+    <button   onclick="toggleParrafos()">Motivos para Aprobarme </button>
+    <div id="contenedor-parrafos" style="display: none;">
+    <p>Vengo poco a clase (porque lo bueno se hace esperar)</p>
+    <p>Ademas pensa que no me tenes que fumar</p>
+    <p>Estamos en proceso con un robot</p>
+    <p>te rickrolle (pero no te enojes)</p>
+    <p><button onclick="window.open('https://www.youtube.com/watch?v=g8fbiFbT0X8','_blank')"> mira un video de gatitos graciosos </button></p>
+    <p>   tengo una perrita, se pondra muy triste si desapruebo   </p>
+    <p>te puedo comprar un caramelo</p>
+    <p>no pienses que es soborno</p>
+    <p><button onclick="window.open('motoneta.mp4','_blank')"> mira lo que craftee mientras faltaba a clase</button></p>
+    <p> <a href="index.html">  volver al inicio </a> </p>
+    
+    </div>
+</body>
+</html>

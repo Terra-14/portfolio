@@ -1,0 +1,75 @@
+body {
+    background-image: url(oshino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    display: inline-block;
+    color: violet;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 75px;
+}
+
+p {
+    font-size: 25px;
+    background-color: violet;
+    color: #0050ff;
+    text-align: center;
+    padding: 5px 25px;
+}
+
+p button {
+    border-width: 0px;
+    color: #0050ff;
+    font-size: 25px;
+    margin-top: auto;
+    background-color: rgb(230, 104, 230);
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        font-size: 50px;
+        margin-top: 50px;
+        padding: 10px 30px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+
+    p button {
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 36px;
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+
+    p button {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+}
